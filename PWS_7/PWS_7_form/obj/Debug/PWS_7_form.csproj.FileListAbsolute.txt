@@ -1,0 +1,13 @@
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\bin\Debug\PWS_7_form.exe.config
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\bin\Debug\PWS_7_form.exe
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\bin\Debug\PWS_7_form.pdb
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\bin\Debug\Newtonsoft.Json.dll
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\bin\Debug\Newtonsoft.Json.xml
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\obj\Debug\PWS_7_form.csproj.AssemblyReference.cache
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\obj\Debug\PWS_7_form.Form1.resources
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\obj\Debug\PWS_7_form.Properties.Resources.resources
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\obj\Debug\PWS_7_form.csproj.GenerateResource.cache
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\obj\Debug\PWS_7_form.csproj.CoreCompileInputs.cache
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\obj\Debug\PWS_7_form.csproj.CopyComplete
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\obj\Debug\PWS_7_form.exe
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_form\obj\Debug\PWS_7_form.pdb

@@ -1,0 +1,13 @@
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\bin\Debug\PWS_7_Host.exe.config
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\bin\Debug\PWS_7_Host.exe
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\bin\Debug\PWS_7_Host.pdb
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\bin\Debug\Newtonsoft.Json.dll
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\bin\Debug\PWS_7.dll
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\bin\Debug\PWS_7.pdb
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\bin\Debug\PWS_7.dll.config
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\bin\Debug\Newtonsoft.Json.xml
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\obj\Debug\PWS_7_Host.csproj.AssemblyReference.cache
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\obj\Debug\PWS_7_Host.csproj.CoreCompileInputs.cache
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\obj\Debug\PWS_7_Host.csproj.CopyComplete
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\obj\Debug\PWS_7_Host.exe
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7_Host\obj\Debug\PWS_7_Host.pdb

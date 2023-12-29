@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SumMessage xmlns="http://MKV/"><a1><s>fgbihgf</s><k>1</k><f>0.3</f></a1><a2><s>1</s><k>3</k><f>0.2</f></a2></SumMessage></soap:Body></soap:Envelope>

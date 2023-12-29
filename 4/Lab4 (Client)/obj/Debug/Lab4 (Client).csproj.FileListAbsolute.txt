@@ -1,0 +1,34 @@
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.AssemblyReference.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.SuggestedBindingRedirects.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.GenerateResource.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.CoreCompileInputs.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\bin\Debug\Lab4 (Client).exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\bin\Debug\Lab4 (Client).exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\bin\Debug\Lab4 (Client).pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\bin\Debug\Lab4 (ASMX).dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\bin\Debug\Lab4 (ASMX).pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\bin\Debug\Lab4 (ASMX).dll.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4.Client.ASMX.resources
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4_Client.Properties.Resources.resources
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.CopyComplete
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4 (Client).exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\obj\Debug\Lab4 (Client).pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\bin\Debug\Newtonsoft.Json.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client)\bin\Debug\Newtonsoft.Json.xml
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\bin\Debug\Lab4 (Client).exe.config
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\bin\Debug\Lab4 (Client).exe
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\bin\Debug\Lab4 (Client).pdb
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\bin\Debug\Lab4 (ASMX).dll
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\bin\Debug\Newtonsoft.Json.dll
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\bin\Debug\Lab4 (ASMX).pdb
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\bin\Debug\Lab4 (ASMX).dll.config
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\bin\Debug\Newtonsoft.Json.xml
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.AssemblyReference.cache
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4.Client.ASMX.resources
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4_Client.Properties.Resources.resources
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.GenerateResource.cache
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.CoreCompileInputs.cache
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4 (Client).csproj.CopyComplete
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4 (Client).exe
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4 (Client).pdb
+F:\___даст Бог закончу\_\Лабы по сервисам-20230901T073024Z-001\Web-Services_4_1-main\4\Lab4 (Client)\obj\Debug\Lab4_Client.Form1.resources

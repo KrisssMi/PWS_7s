@@ -1,0 +1,10 @@
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\bin\Debug\PWS_7.dll.config
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\bin\Debug\PWS_7.dll
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\bin\Debug\PWS_7.pdb
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\bin\Debug\Newtonsoft.Json.dll
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\bin\Debug\Newtonsoft.Json.xml
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\obj\Debug\PWS_7.csproj.AssemblyReference.cache
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\obj\Debug\PWS_7.csproj.CoreCompileInputs.cache
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\obj\Debug\PWS_7.csproj.CopyComplete
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\obj\Debug\PWS_7.dll
+E:\BSTU\4_course\PIS\Labs\PWS_7\PWS_7\obj\Debug\PWS_7.pdb

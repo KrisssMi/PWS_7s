@@ -1,0 +1,327 @@
+﻿@{
+    Layout = null;
+}
+@*@model List<laba3.Controllers.StudentApi>*@
+<style>
+    /* Базовый стиль для всего тела страницы */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Стили для формы */
+    form {
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    /* Стиль для меток */
+    label {
+        font-weight: bold;
+    }
+
+    /* Стиль для входных полей */
+    input {
+        width: 100%;
+        height: 37px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+    }
+
+    /* Стиль для кнопок */
+    button {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+        /* Стиль для кнопок при наведении */
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    /* Стиль для контейнера данных */
+    #data-container {
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+    }
+
+        /* Стиль для каждого элемента данных в контейнере */
+        #data-container > div {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+        }
+</style>
+</head>
+<body>
+    <form id="filter-form">
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" value="json"><br>
+
+        <label for="sort">Sort:</label>
+        <input type="text" id="sort" name="sort" value="id"><br>
+
+        <label for "limit">Limit:</label>
+        <input type="text" id="limit" name="limit" value="10"><br>
+
+        <label for="offset">Offset:</label>
+        <input type="text" id="offset" name="offset" value="0"><br>
+
+        <label for="minid">Min Id:</label>
+        <input type="text" id="minid" name="minid" value="0"><br>
+
+        <label for="maxid">Max Id:</label>
+        <input type="text" id="maxid" name="maxid" value="10000"><br>
+
+        <label for="like">Like:</label>
+        <input type="text" id="like" name="like"><br>
+
+        <label for="globallike">Global Like:</label>
+        <input type="text" id="globallike" name="globallike"><br>
+
+        <label for="columns">Columns:</label>
+        <input type="text" id="columns" name="columns" value="id, name, phone"><br>
+        <button type="button" onclick="applyFilter()">Применить фильтр</button>
+    </form>
+
+    <div id="data-container"></div>
+
+    <script type="text/javascript" src="../Scripts/parser.min.js"></script>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script>
+        function fetchData(queryParams) {
+            const queryString = Object.keys(queryParams)
+                .map(key => key + '=' + queryParams[key])
+                .join('&');
+
+            var type = document.getElementById('type').value
+            headers = {
+                "Accept": type
+            }
+
+            fetch(`/api/Values/?${queryString}`, { headers })
+                .then(response => {
+                    if (document.getElementById('type').value == "json") {
+                        return response.json()
+                    }
+                    else {
+                        return response.text();
+                    }
+                })
+                .then(data => {
+                    if (document.getElementById('type').value == "json") {
+                        renderData(data)
+                    }
+                    else {
+                        var jsObj = parser.parse(data).ResponseObject
+                        jsObj.Students = jsObj.Students.StudentApi;
+                        jsObj.Students.forEach(item => {
+                            try {
+                                item.Links = [...item.Links.Link]
+                            }
+                            catch {
+                                item.Links = [item.Links.Link]
+                            }
+                        })
+                        try {
+                            jsObj.Links = [...jsObj.Links.Link]
+                        }
+                        catch {
+                            jsObj.Links = [jsObj.Links.Link]
+                        }
+                        renderData(jsObj)
+                    }
+                })
+                .catch(error => console.error('Ошибка:', error));
+        }
+
+        function renderOneData(data) {
+            const container = document.getElementById('data-container');
+            container.innerHTML = '';
+            if (document.getElementById('type').value == "json")
+                data = JSON.parse(data);
+
+            const itemDiv = document.createElement('div');
+            /* itemDiv.innerHTML = `
+                         <p>Id: ${data.Id}</p>
+                         <p>Name: ${data.Name}</p>
+                         <p>Phone: ${data.Phone}</p>
+                     `;*/
+
+            itemDiv.innerHTML = "";
+
+            if (data?.Id !== undefined) {
+                itemDiv.innerHTML += `<p>Id: ${data.Id}</p>`;
+            }
+
+            if (data?.Name !== undefined) {
+                itemDiv.innerHTML += `<p>Name: ${data.Name}</p>`;
+            }
+
+            if (data?.Phone !== undefined) {
+                itemDiv.innerHTML += `<p>Phone: ${data.Phone}</p>`;
+            }
+
+            itemDiv.innerHTML += `
+                    <form>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" value=${data.Name}>
+                    <label for="phone">Phone:</label>
+                    <input id="phone" type="text" value=${data.Phone}>
+                    </form>
+                    `;
+
+            data.Links.forEach(link => {
+                const linkButton = document.createElement('button');
+                linkButton.innerText = link.Action;
+                linkButton.addEventListener('click', () => {
+                    let body = null;
+                    var type = document.getElementById('type').value
+                    headers = {
+                        "Content-Type": "application/json",
+                        "Accept": type
+                    }
+                    if (link.Action == 'PUT') {
+                        const name = document.getElementById('name');
+                        const phone = document.getElementById('phone');
+                        body = {
+                            Id: data.Id,
+                            Name: name.value,
+                            Phone: phone.value
+                        }
+                    }
+                    fetch(link.Href, { method: link.Action, body: JSON.stringify(body), headers }).then(res => res.json()).then()
+
+                });
+                itemDiv.appendChild(linkButton);
+            })
+            container.appendChild(itemDiv);
+        }
+
+        function renderData(data) {
+            const container = document.getElementById('data-container');
+            container.innerHTML = ''; // Очистка контейнера
+            if (document.getElementById('type').value == "json")
+                data = JSON.parse(data);
+            data.Students.forEach(item => {
+                const itemDiv = document.createElement('div');
+                itemDiv.innerHTML = `
+                        <p>Id: ${item.Id}</p>
+                        <p>Name: ${item.Name}</p>
+                        <p>Phone: ${item.Phone}</p>
+                        `;
+
+                // Создание кнопки для каждой ссылки в поле Links
+                item.Links.forEach(link => {
+                    const linkButton = document.createElement('button');
+                    linkButton.innerText = link.Action;
+                    var type = document.getElementById('type').value
+                    headers = {
+                        "Accept": type
+                    }
+                    linkButton.addEventListener('click', () => {
+                        fetch(link.Href, { method: link.Action, headers }).then(res => {
+                            if (type == 'json') {
+                                return res.json()
+                            }
+                            else {
+                                return res.json();
+                            }
+                        }).then(data => {
+                            if (type == 'json') {
+                                renderOneData(data)
+                            }
+                            else {
+                                var jsObj = parser.parse(data)
+                                jsObj = jsObj.StudentApi;
+                                try {
+                                    jsObj.Links = [...jsObj.Links.Link]
+                                }
+                                catch {
+                                    jsObj.Links = [jsObj.Links.Link]
+                                }
+                                renderOneData(jsObj)
+                            }
+                        })
+                    });
+                    itemDiv.appendChild(linkButton);
+                });
+                container.appendChild(itemDiv);
+            })
+
+            data.Links.forEach(link => {
+                const button = document.createElement('button');
+                button.innerText = link.Rel;
+                if (link.Action == "POST") {
+                    const form = document.createElement('form');
+                    form.innerHTML = `
+                    <form action="${link.Href}">
+                        <label for="namec">Name:</label>
+                        <input type="text" id="namec" name="namec" placeholder="Name"><br>
+                        <label for="phonec">Phone:</label>
+                        <input type="text" id="phonec" name="phonec" placeholder="Phone"><br>
+                    </form>
+                    `
+                    container.appendChild(form)
+                }
+
+                button.addEventListener('click', () => {
+                    let body = null;
+                    var type = document.getElementById('type').value
+                    headers = {
+                        "Accept": type,
+                        "Content-type": "Application/json"
+                    }
+                    if (link.Action == 'POST') {
+                        const name = document.getElementById('namec');
+                        const phone = document.getElementById('phonec');
+                        body = {
+                            Name: name.value,
+                            Phone: phone.value
+                        }
+
+                        fetch(link.Href, {
+                            method: link.Action, body: JSON.stringify(body), headers
+                        })
+                    }
+                    else {
+                        fetch(link.Href, {
+                            method: link.Action, headers
+                        }).then(res => res.json()).then(data => renderData(data))
+                    }
+                });
+                container.appendChild(button)
+            })
+        }
+
+        function applyFilter() {    // Применение фильтра
+            const queryParams = {
+                sort: document.getElementById('sort').value,
+                limit: document.getElementById('limit').value,
+                offset: document.getElementById('offset').value,
+                minid: document.getElementById('minid').value,
+                maxid: document.getElementById('maxid').value,
+                like: document.getElementById('like').value,
+                globallike: document.getElementById('globallike').value,
+                columns: document.getElementById('columns').value
+            };
+            fetchData(queryParams); // Вызов функции получения данных с параметрами
+        }
+
+        window.addEventListener('load', () => { // При загрузке страницы
+            fetchData({});
+        });
+    </script>  

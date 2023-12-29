@@ -1,0 +1,86 @@
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Lab4 (Client JSON).dll.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Lab4 (Client JSON).dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Lab4 (Client JSON).pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\csc.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\csc.exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\csc.rsp
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\csi.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\csi.exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\csi.rsp
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.AppContext.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Collections.Immutable.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Console.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Globalization.Calendars.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.IO.Compression.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.IO.FileSystem.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Net.Http.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Net.Sockets.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Reflection.Metadata.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.ValueTuple.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Xml.XPath.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\vbc.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\vbc.exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\vbc.rsp
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\VBCSCompiler.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\roslyn\VBCSCompiler.exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Antlr3.Runtime.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Microsoft.Web.Infrastructure.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Newtonsoft.Json.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.Helpers.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.Mvc.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.Optimization.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.Razor.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.WebPages.Deployment.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.WebPages.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.WebPages.Razor.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\WebGrease.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.Helpers.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.Mvc.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.Optimization.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.Razor.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.WebPages.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.WebPages.Deployment.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\System.Web.WebPages.Razor.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Newtonsoft.Json.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Antlr3.Runtime.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\ru\System.Web.Helpers.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\ru\System.Web.Mvc.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\ru\System.Web.Optimization.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\ru\System.Web.Razor.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\ru\System.Web.WebPages.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\obj\Debug\Lab4 (Client JSON).csproj.AssemblyReference.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\obj\Debug\Lab4 (Client JSON).csproj.CoreCompileInputs.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\obj\Debug\Lab4 (Client JSON).csproj.CopyComplete
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\obj\Debug\Lab4 (Client JSON).dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\4\Lab4 (Client JSON)\obj\Debug\Lab4 (Client JSON).pdb

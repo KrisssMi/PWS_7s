@@ -1,0 +1,52 @@
+﻿<html>
+<head>
+    <title>Lab4</title>
+</head>
+<body>
+    <div action="api/values" method="POST">
+        <input type="number" id="x" name="x" />
+        <input type="number" id="y" name="y" />
+
+        <button onclick="Ajax('POST')">POST</button><br />
+    </div>
+    <br />
+    <h1 id="result"></h1>
+    <script>
+        const Ajax = async (method) => {
+            let body = {};
+            body.x = +document.querySelector('#x').value;
+            body.y = +document.querySelector('#y').value;
+
+
+            const headers = {
+                'Content-Type': 'application/json;charset=utf-8',
+                'Accept': 'application/json',
+                'Origin': ''
+            }
+
+            try {
+                const response = await fetch(`Simplex.asmx/AddMessageJSON`,
+                    {
+                        method: 'POST',
+                        headers,
+                        body: JSON.stringify(body)
+                    }
+                );
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.message || 'Something wrong');
+                }
+                else {
+                    document.getElementById("result").innerHTML = `${data.d}`;
+                }
+            }
+            catch (e) {
+                throw e;
+            }
+
+            return false;
+        }
+    </script>
+</body>
+</html>

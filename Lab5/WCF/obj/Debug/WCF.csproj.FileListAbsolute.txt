@@ -1,0 +1,14 @@
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\WCF\bin\Debug\WCF.dll.config
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\WCF\bin\Debug\WCF.dll
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\WCF\bin\Debug\WCF.pdb
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\WCF\obj\Debug\WCF.csproj.AssemblyReference.cache
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\WCF\obj\Debug\WCF.csproj.CoreCompileInputs.cache
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\WCF\obj\Debug\WCF.dll
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\WCF\obj\Debug\WCF.pdb
+E:\BSTU\4_course\PIS\Labs\Lab5\WCF\bin\Debug\WCF.dll.config
+E:\BSTU\4_course\PIS\Labs\Lab5\WCF\bin\Debug\WCF.dll
+E:\BSTU\4_course\PIS\Labs\Lab5\WCF\bin\Debug\WCF.pdb
+E:\BSTU\4_course\PIS\Labs\Lab5\WCF\obj\Debug\WCF.csproj.AssemblyReference.cache
+E:\BSTU\4_course\PIS\Labs\Lab5\WCF\obj\Debug\WCF.csproj.CoreCompileInputs.cache
+E:\BSTU\4_course\PIS\Labs\Lab5\WCF\obj\Debug\WCF.dll
+E:\BSTU\4_course\PIS\Labs\Lab5\WCF\obj\Debug\WCF.pdb

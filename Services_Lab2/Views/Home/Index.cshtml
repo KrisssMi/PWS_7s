@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab_2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        div {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        input[type="number"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="Ajax('GET')">Get data</button><br />
+        <p id="final_result"></p>
+        <p id="result"></p>
+        <p id="stack"></p>
+        <button onclick="Ajax('DELETE')">Delete from stack</button><br />
+
+        <div action="http://localhost:44328/api/StackDir" method="POST">
+            Result: <input type="number" id="resultInput" name="result" />
+            <button onclick="Ajax('POST')">Update result</button><br />
+        </div>
+        <br />
+        <div action="http://localhost:44328/api/StackDir" method="PUT">
+            Add: <input type="number" id="addInput" name="add" />
+            <button onclick="Ajax('PUT')">Add to stack</button><br />
+        </div>
+        <br />
+    </div>
+    <script>
+        const finalRes = document.querySelector("#final_result");  // querySelector - возвращает первый элемент, соответствующий указанному селектору
+        const res = document.querySelector("#result");
+        const stack = document.querySelector("#stack");
+        const Ajax = async (method) => {  
+            let body = {};
+            if (method === "POST") {
+                body.result = +document.querySelector('#resultInput').value;
+            }
+            if (method === "PUT") {
+                body.add = +document.querySelector('#addInput').value;
+            }
+
+            const headers = {
+                'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+            }
+
+            try {
+                let generatedParams = '';   // generatedParams - сгенерированные параметры
+                if (body.add) {             // если add не пустой
+                    generatedParams += `?add=${body.add}`
+                }
+                if (body.result) {
+                    generatedParams += `?result=${body.result}`
+                }
+                const response = await fetch(`http://localhost:44328/api/StackDir${generatedParams}`,
+                    { method, headers }
+                );
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.message || 'Something wrong');
+                }
+                else {
+                    finalRes.innerHTML = `Final result: ${data.final_result}`;
+                    res.innerHTML = `Result: ${data.result}`;
+                    stack.innerHTML = `Stack: ${data.stackdata}`;
+                }
+            }
+            catch (e) {
+                throw e;
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Lab_1</title>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        input[type="number"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="button"] {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            flex-grow: 1;
+        }
+
+            input[type="button"]:hover {
+                background-color: #0056b3;
+            }
+
+        #result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form>
+            <input type="number" id="number" /><br />
+            <label for="GetBtn">
+                <input type="button" id="GetBtn" onclick="Get()" value="GET" />
+            </label>
+            <label for="PostBtn">
+                <input type="button" id="PostBtn" onclick="Post()" value="POST" />
+            </label>
+            <label for="PutBtn">
+                <input type="button" id="PutBtn" onclick="Put()" value="PUT" />
+            </label>
+            <label for="DeleteBtn">
+                <input type="button" id="DeleteBtn" onclick="Delete()" value="DELETE" />
+            </label>
+        </form>
+        <br />
+        <p id="result"></p>
+    </main>
+
+    <script>
+        async function Get() {
+            const response = await fetch('.MKV', { method: 'GET', credentials: "include" });    // credentials: "include" - для передачи куки
+            document.getElementById('result').innerText = await response.text();
+        }
+
+        async function Post() {
+            let result = document.getElementById('number').value;
+            const response = await fetch(`.MKV?RESULT=${result}`, { method: 'POST', credentials: "include" });
+            document.getElementById('result').innerText = await response.text();
+        }
+
+        async function Put() {
+            let result = document.getElementById('number').value;
+            const response = await fetch(`.MKV?ADD=${result}`, { method: 'PUT', credentials: "include" });
+            document.getElementById('result').innerText = await response.text();
+        }
+
+        async function Delete() {
+            const response = await fetch('.MKV', { method: 'DELETE', credentials: "include" });
+            document.getElementById('result').innerText = await response.text();
+        }
+    </script>
+</body>
+</html>

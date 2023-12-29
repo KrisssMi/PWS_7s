@@ -1,0 +1,15 @@
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\Client1\bin\Debug\Client1.exe.config
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\Client1\bin\Debug\Client1.exe
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\Client1\bin\Debug\Client1.pdb
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\Client1\obj\Debug\Client1.csproj.AssemblyReference.cache
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\Client1\obj\Debug\Client1.csproj.SuggestedBindingRedirects.cache
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\Client1\obj\Debug\Client1.csproj.CoreCompileInputs.cache
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\Client1\obj\Debug\Client1.exe
+E:\BSTU\4_course\_\ASP-7-sem-\Tasks\Lab5\Client1\obj\Debug\Client1.pdb
+E:\BSTU\4_course\PIS\Labs\Lab5\Client1\bin\Debug\Client1.exe.config
+E:\BSTU\4_course\PIS\Labs\Lab5\Client1\bin\Debug\Client1.exe
+E:\BSTU\4_course\PIS\Labs\Lab5\Client1\bin\Debug\Client1.pdb
+E:\BSTU\4_course\PIS\Labs\Lab5\Client1\obj\Debug\Client1.csproj.AssemblyReference.cache
+E:\BSTU\4_course\PIS\Labs\Lab5\Client1\obj\Debug\Client1.csproj.CoreCompileInputs.cache
+E:\BSTU\4_course\PIS\Labs\Lab5\Client1\obj\Debug\Client1.exe
+E:\BSTU\4_course\PIS\Labs\Lab5\Client1\obj\Debug\Client1.pdb

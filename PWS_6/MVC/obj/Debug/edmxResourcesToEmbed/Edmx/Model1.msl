@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище WSMKVModelContainer" CdmEntityContainer="WSMKVEntities">
+    <EntitySetMapping Name="Note">
+      <EntityTypeMapping TypeName="WSMKVModel.Note">
+        <MappingFragment StoreEntitySet="Note">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="student_id" ColumnName="student_id" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="note1" ColumnName="note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="WSMKVModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
